@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  main{
+    display: flex;
+    align-items: center;
+    background-image: url(./img/background4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 100vh; */
+  }
+
+  header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100%;
+    border: solid black 1px;
+    background-color: black;
+  }
+
+  h1{
+    margin: 20px;
+    color: red;
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: red;
+    height: 3rem;
+  }
+
+  header form {
+    margin: 0.62rem;
+    width: 60rem;
+    padding: 0.62rem;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+
+  header form input{
+    width: 60vw;
+    padding: 0.31rem;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+  header form button{
+    padding: 0.31rem 0.62rem;
+    background-color:red;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+  header form button:hover{
+    background-color: black;
+    color: red;
+    border: red 1px solid;
+}
+
+  div#lista{
+    margin: 6rem;
+    padding: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+  div.item{
+    text-align: center;
+    padding-top: 0.6rem;
+    width: 12.5rem;
+    height: 21.8rem;
+    border: 2px solid red;
+    margin: 5px;
+    background-color: black;
+    color: red;
+}
+
+  div.item:hover{
+    background-color: red;
+    cursor: pointer;
+    color: black;
+}
+
+  div.item img{
+    width: 100%;
+}
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 8vh;
+    width: 100%;
+    border-top: solid black 1px;
+    color: red;
+    background-color: black;
+  }
+
+  .github{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-image: url(./img/github2.png);
+    background-color: transparent;
+    object-fit: cover;
+    border: none;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7.3vh;
+    width: 3.50vw;
+  }
+
+  .Footer {
+    color:red;
+    height: 5vh;
+    width: 90vw;
+  }
+
+  p {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color: red;
+    font-size: 1.2rem;
+  }
+
+ .i{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: start;
+  height:100%;
+ }
